@@ -1,0 +1,88 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.container{
+    width:450px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 48px;
+    
+   
+
+}
+h1{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #1F2E55;
+    margin-top: 45px;
+}
+.mid-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717FA6;
+    text-align: center;
+    margin-top: 17px;
+}
+.mid-div{
+    width: 354px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.price-year{
+    display:flex;
+    flex-direction: column;
+}
+.left{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.button{
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    padding: 15px 102px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border:none;
+    cursor: pointer;
+}
+.cancel{
+    margin-top: 32px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color:#717FA6;
+    cursor:pointer;
+}
+.change{
+    color:#382AE1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+button:hover{
+    background-color:#766CF1;
+}
+/**{outline:2px solid red}*/
